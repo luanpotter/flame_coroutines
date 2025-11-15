@@ -9,8 +9,8 @@ environment:
   flutter: ">=3.32.0"
 
 dependencies:
-  coroutines: 0.1.0
-  flame: 1.32.0
+  coroutines: 0.2.0
+  flame: 1.33.0
   flutter:
     sdk: flutter
 

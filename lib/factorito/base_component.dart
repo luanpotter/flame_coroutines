@@ -1,4 +1,4 @@
-import 'package:coroutines/coroutines.dart';
+import 'package:coroutines/sync.dart';
 import 'package:flame/components.dart';
 import 'package:flame_coroutines/factorito/factorito.dart';
 
