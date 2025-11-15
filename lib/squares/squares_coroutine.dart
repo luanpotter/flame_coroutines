@@ -17,7 +17,7 @@ class SquaresCoroutineGame extends FlameGame {
   @override
   Future<void> onLoad() async {
     await world.addAll([
-      for (var i = 0; i < 5; i++) SquareCoroutine(),
+      for (var i = 0; i < 10; i++) SquareCoroutine(),
     ]);
     await super.onLoad();
   }
@@ -52,7 +52,7 @@ class SquareCoroutine extends PositionComponent
     for (var i = 1; i <= steps; i++) {
       final t = i / steps;
       _paint.color = Color.lerp(currentColor, newColor, t)!;
-      yield true; // yield to allow the game loop to render the frame
+      yield true; // yield to allow the game loop to continue
     }
   }
 
