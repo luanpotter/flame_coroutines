@@ -45,10 +45,10 @@ packages:
     dependency: "direct main"
     description:
       name: coroutines
-      sha256: "3337c7084af134441f1d99dc7e46c228ff43057471f67030ebf8b9f46c32e1df"
+      sha256: "38540fd25c0d598700efc94a32fa7b7e6d145a207efbca46cedf2d3b42451a93"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "0.2.1"
   fake_async:
     dependency: transitive
     description:
